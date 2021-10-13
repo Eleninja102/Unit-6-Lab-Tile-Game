@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DC67F4E2716273700A75855 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC67F4D2716273700A75855 /* main.cpp */; };
+		1DC67F57271627B300A75855 /* TileGameDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC67F55271627B200A75855 /* TileGameDriver.cpp */; };
+		1DC67F58271627B300A75855 /* TileGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DC67F56271627B300A75855 /* TileGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1DC67F4A2716273700A75855 /* Unit 6 Lab: Tile Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 6 Lab: Tile Game"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DC67F4D2716273700A75855 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DC67F54271627B200A75855 /* TileGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileGame.h; sourceTree = "<group>"; };
+		1DC67F55271627B200A75855 /* TileGameDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileGameDriver.cpp; sourceTree = "<group>"; };
+		1DC67F56271627B300A75855 /* TileGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileGame.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		1DC67F4C2716273700A75855 /* Unit 6 Lab: Tile Game */ = {
 			isa = PBXGroup;
 			children = (
-				1DC67F4D2716273700A75855 /* main.cpp */,
+				1DC67F56271627B300A75855 /* TileGame.cpp */,
+				1DC67F54271627B200A75855 /* TileGame.h */,
+				1DC67F55271627B200A75855 /* TileGameDriver.cpp */,
 			);
 			path = "Unit 6 Lab: Tile Game";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC67F4E2716273700A75855 /* main.cpp in Sources */,
+				1DC67F58271627B300A75855 /* TileGame.cpp in Sources */,
+				1DC67F57271627B300A75855 /* TileGameDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
